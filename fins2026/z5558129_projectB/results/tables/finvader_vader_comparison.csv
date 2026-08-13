@@ -1,0 +1,17 @@
+scope,sector,metric,value
+Headline,All,VADER vs finVADER correlation,0.6037403788769388
+Headline,All,VADER exact-zero proportion,0.4884633196218911
+Headline,All,finVADER exact-zero proportion,0.1685553951347081
+Headline,All,Mean absolute score difference,0.14987673526928
+Sector-month,All,VADER vs finVADER correlation,0.6922207367848195
+Sector-month,All,Mean absolute score difference,0.031851250110611545
+Sector-month,Comm,VADER vs finVADER correlation,0.43845312491741806
+Sector-month,Consumer,VADER vs finVADER correlation,0.7444044890064021
+Sector-month,Energy,VADER vs finVADER correlation,0.7680082520050895
+Sector-month,Financials,VADER vs finVADER correlation,0.7255562405657218
+Sector-month,Healthcare,VADER vs finVADER correlation,0.37364452860506747
+Sector-month,Industrials,VADER vs finVADER correlation,0.6427917825252989
+Sector-month,Materials,VADER vs finVADER correlation,0.8098197456620345
+Sector-month,RealEstate,VADER vs finVADER correlation,0.8029486192072172
+Sector-month,Tech,VADER vs finVADER correlation,0.6740431582107076
+Sector-month,Utilities,VADER vs finVADER correlation,0.7227226763043787

@@ -1,0 +1,36 @@
+profile,crypto_preference,scenario_key,scenario_label,selection_order,fund,rank,ranking_score,crypto_exposure,template_weight,recommended_weight,weight_adjustment,crypto_contribution
+Conservative,none,none,None (0% crypto),1,Equity Minimum Variance,1,0.7749999999999999,0.0,0.5,0.5,0.0,0.0
+Conservative,none,none,None (0% crypto),2,Equity Equal Weight,4,0.5687499999999999,0.0,0.3,0.3,0.0,0.0
+Conservative,none,none,None (0% crypto),3,Equity Maximum Sharpe,5,0.5499999999999999,0.0,0.2,0.2,0.0,0.0
+Conservative,limited,limited,Limited,1,Equity Minimum Variance,1,0.7749999999999999,0.0,0.5,0.5,0.0,0.0
+Conservative,limited,limited,Limited,2,Combined Risk Parity,2,0.65625,0.0908918219963011,0.3,0.3,0.0,0.027267546598890326
+Conservative,limited,limited,Limited,3,Combined Minimum Variance,3,0.6499999999999999,0.032247293489445605,0.2,0.2,0.0,0.006449458697889121
+Conservative,higher,higher,Higher,1,Equity Minimum Variance,1,0.7749999999999999,0.0,0.5,0.5,0.0,0.0
+Conservative,higher,higher,Higher,2,Combined Risk Parity,2,0.65625,0.0908918219963011,0.3,0.3,0.0,0.027267546598890326
+Conservative,higher,higher,Higher,3,Combined Minimum Variance,3,0.6499999999999999,0.032247293489445605,0.2,0.2,0.0,0.006449458697889121
+Balanced,none,none,None (0% crypto),1,Equity Minimum Variance,2,0.625,0.0,0.4,0.4,0.0,0.0
+Balanced,none,none,None (0% crypto),2,Equity Equal Weight,5,0.5625,0.0,0.35,0.35,0.0,0.0
+Balanced,none,none,None (0% crypto),3,Equity Maximum Sharpe,7,0.5,0.0,0.25,0.25,0.0,0.0
+Balanced,limited,limited,Limited,1,Combined Risk Parity,1,0.6875,0.0908918219963011,0.35,0.4033205446638791,0.053320544663879144,0.03665853915304051
+Balanced,limited,limited,Limited,2,Equity Minimum Variance,2,0.625,0.0,0.3,0.3752504406461618,0.07525044064616182,0.0
+Balanced,limited,limited,Limited,3,Crypto Risk Parity,3,0.59375,0.9999999999999996,0.2,0.03397574693700454,-0.16602425306299548,0.033975746937004524
+Balanced,limited,limited,Limited,4,Combined Maximum Sharpe,4,0.5625,0.15665618563161837,0.15,0.1874532677529546,0.0374532677529546,0.029365713910360317
+Balanced,higher,higher,Higher (default),1,Combined Risk Parity,1,0.6875,0.0908918219963011,0.35,0.3861547628436327,0.036154762843632726,0.03509830996740733
+Balanced,higher,higher,Higher (default),2,Equity Minimum Variance,2,0.625,0.0,0.3,0.3510246452479607,0.05102464524796069,0.0
+Balanced,higher,higher,Higher (default),3,Crypto Risk Parity,3,0.59375,0.9999999999999996,0.2,0.08742486438226467,-0.11257513561773534,0.08742486438226463
+Balanced,higher,higher,Higher (default),4,Combined Maximum Sharpe,4,0.5625,0.15665618563161837,0.15,0.175395727526142,0.025395727526141998,0.027476825650328055
+Balanced,higher,higher_25_alternative,Optional 25% crypto (higher-risk alternative),1,Combined Risk Parity,1,0.6875,0.0908918219963011,0.35,0.35182320018418445,0.0018232001841844703,0.0319778516853099
+Balanced,higher,higher_25_alternative,Optional 25% crypto (higher-risk alternative),2,Equity Minimum Variance,2,0.625,0.0,0.3,0.3025730534898613,0.00257305348986131,0.0
+Balanced,higher,higher_25_alternative,Optional 25% crypto (higher-risk alternative),3,Crypto Risk Parity,3,0.59375,0.9999999999999996,0.2,0.19432309917160745,-0.0056769008283925615,0.19432309917160737
+Balanced,higher,higher_25_alternative,Optional 25% crypto (higher-risk alternative),4,Combined Maximum Sharpe,4,0.5625,0.15665618563161837,0.15,0.15128064715434691,0.00128064715434692,0.02369904914308273
+Growth,none,none,None (0% crypto),1,Equity Equal Weight,5,0.5624999999999999,0.0,0.5,0.5,0.0,0.0
+Growth,none,none,None (0% crypto),2,Equity Minimum Variance,6,0.4375,0.0,0.3,0.3,0.0,0.0
+Growth,none,none,None (0% crypto),3,Equity Maximum Sharpe,7,0.43125,0.0,0.2,0.2,0.0,0.0
+Growth,limited,limited,Limited,1,Crypto Risk Parity,1,0.775,0.9999999999999996,0.4,0.03109763270829497,-0.36890236729170506,0.031097632708294957
+Growth,limited,limited,Limited,2,Combined Risk Parity,2,0.7250000000000001,0.0908918219963011,0.3,0.4999999999999999,0.1999999999999999,0.04544591099815054
+Growth,limited,limited,Limited,3,Crypto Equal Weight,3,0.6499999999999999,1.0,0.2,0.0,-0.2,0.0
+Growth,limited,limited,Limited,4,Combined Maximum Sharpe,4,0.6062500000000001,0.15665618563161837,0.1,0.46890236729170515,0.3689023672917051,0.07345645629355466
+Growth,higher,higher,Higher,1,Crypto Risk Parity,1,0.775,0.9999999999999996,0.4,0.14967323413710795,-0.25032676586289204,0.1496732341371079
+Growth,higher,higher,Higher,2,Combined Risk Parity,2,0.7250000000000001,0.0908918219963011,0.3,0.5,0.2,0.04544591099815055
+Growth,higher,higher,Higher,3,Crypto Equal Weight,3,0.6499999999999999,1.0,0.2,0.0,-0.2,0.0
+Growth,higher,higher,Higher,4,Combined Maximum Sharpe,4,0.6062500000000001,0.15665618563161837,0.1,0.3503267658628922,0.25032676586289215,0.05488085486474174

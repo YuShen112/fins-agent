@@ -1,0 +1,4 @@
+fund_a,fund_b,mean_half_l1_distance,minimum_half_l1_distance,maximum_half_l1_distance,meaningfully_different
+Combined Equal Weight,Combined Maximum Sharpe,0.780542120920086,0.7155938313982952,0.8333333333333215,True
+Combined Equal Weight,Combined Minimum Variance,0.7304944245788588,0.6057070753147495,0.8058080057740824,True
+Combined Maximum Sharpe,Combined Minimum Variance,0.6452490193793207,0.4263236994521132,0.7999999999999962,True

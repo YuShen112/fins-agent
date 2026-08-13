@@ -1,0 +1,8 @@
+fund_a,fund_b,mean_half_l1_distance,minimum_half_l1_distance,maximum_half_l1_distance,meaningfully_different,universe
+Equity Equal Weight,Equity Maximum Sharpe,0.752860321237946,0.6794391814614523,0.7999999999999994,True,Equity
+Equity Equal Weight,Equity Minimum Variance,0.6873624522157306,0.5552929783138331,0.769098769515259,True,Equity
+Equity Maximum Sharpe,Equity Minimum Variance,0.6354030010737999,0.42633176632385633,0.791314459913205,True,Equity
+Crypto Equal Weight,Crypto Risk Parity,0.07409803629130482,0.04326068707516659,0.10608059130198763,True,Crypto
+Combined Maximum Sharpe,Combined Minimum Variance,0.6452490193793207,0.4263236994521132,0.7999999999999962,True,Combined
+Combined Maximum Sharpe,Combined Risk Parity,0.7357753343527991,0.6876168834694846,0.8047938911108662,True,Combined
+Combined Minimum Variance,Combined Risk Parity,0.5993880529171518,0.46827780161940596,0.703402121249879,True,Combined

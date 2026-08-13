@@ -1,0 +1,262 @@
+{
+  "questions": {
+    "objective": {
+      "prompt": "What is your primary investment objective?",
+      "options": {
+        "preservation": {
+          "label": "Preserve capital and earn income",
+          "score": 1
+        },
+        "balanced": {
+          "label": "Balance growth and stability",
+          "score": 2
+        },
+        "growth": {
+          "label": "Prioritise long-term growth",
+          "score": 3
+        }
+      }
+    },
+    "horizon": {
+      "prompt": "How long do you expect to remain invested?",
+      "options": {
+        "short": {
+          "label": "Under 3 years",
+          "score": 1
+        },
+        "medium": {
+          "label": "3-7 years",
+          "score": 2
+        },
+        "long": {
+          "label": "Over 7 years",
+          "score": 3
+        }
+      }
+    },
+    "loss_tolerance": {
+      "prompt": "What temporary portfolio loss could you tolerate?",
+      "options": {
+        "low": {
+          "label": "Under 10%",
+          "score": 1
+        },
+        "medium": {
+          "label": "10-25%",
+          "score": 2
+        },
+        "high": {
+          "label": "Over 25%",
+          "score": 3
+        }
+      }
+    },
+    "decline_behavior": {
+      "prompt": "What would you most likely do during a market decline?",
+      "options": {
+        "sell": {
+          "label": "Sell to avoid further losses",
+          "score": 1
+        },
+        "hold": {
+          "label": "Hold the investment",
+          "score": 2
+        },
+        "buy": {
+          "label": "Invest more at lower prices",
+          "score": 3
+        }
+      }
+    },
+    "stability_growth": {
+      "prompt": "Which trade-off do you prefer?",
+      "options": {
+        "stability": {
+          "label": "More stability",
+          "score": 1
+        },
+        "balanced": {
+          "label": "A balance of both",
+          "score": 2
+        },
+        "growth": {
+          "label": "More potential growth",
+          "score": 3
+        }
+      }
+    }
+  },
+  "profile_cutoffs": {
+    "Conservative": [
+      5,
+      8
+    ],
+    "Balanced": [
+      9,
+      11
+    ],
+    "Growth": [
+      12,
+      15
+    ]
+  },
+  "ranking_weights": {
+    "Conservative": {
+      "annualized_return": 0.1,
+      "sharpe_ratio": 0.2,
+      "annualized_volatility": 0.35,
+      "maximum_drawdown": 0.35
+    },
+    "Balanced": {
+      "annualized_return": 0.25,
+      "sharpe_ratio": 0.25,
+      "annualized_volatility": 0.25,
+      "maximum_drawdown": 0.25
+    },
+    "Growth": {
+      "annualized_return": 0.45,
+      "sharpe_ratio": 0.3,
+      "annualized_volatility": 0.15,
+      "maximum_drawdown": 0.1
+    }
+  },
+  "allocation_templates": {
+    "Conservative": {
+      "3": [
+        0.5,
+        0.3,
+        0.2
+      ]
+    },
+    "Balanced": {
+      "3": [
+        0.4,
+        0.35,
+        0.25
+      ],
+      "4": [
+        0.35,
+        0.3,
+        0.2,
+        0.15
+      ]
+    },
+    "Growth": {
+      "3": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "4": [
+        0.4,
+        0.3,
+        0.2,
+        0.1
+      ]
+    }
+  },
+  "crypto_scenarios": {
+    "Conservative": {
+      "none": {
+        "preference": "none",
+        "label": "None (0% crypto)",
+        "maximum_exposure": 0.0,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "none"
+      },
+      "limited": {
+        "preference": "limited",
+        "label": "Limited",
+        "maximum_exposure": 0.05,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "none"
+      },
+      "higher": {
+        "preference": "higher",
+        "label": "Higher",
+        "maximum_exposure": 0.1,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "standard"
+      }
+    },
+    "Balanced": {
+      "none": {
+        "preference": "none",
+        "label": "None (0% crypto)",
+        "maximum_exposure": 0.0,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "none"
+      },
+      "limited": {
+        "preference": "limited",
+        "label": "Limited",
+        "maximum_exposure": 0.1,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "none"
+      },
+      "higher": {
+        "preference": "higher",
+        "label": "Higher (default)",
+        "maximum_exposure": 0.15,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "standard"
+      },
+      "higher_25_alternative": {
+        "preference": "higher",
+        "label": "Optional 25% crypto (higher-risk alternative)",
+        "maximum_exposure": 0.25,
+        "is_main_recommendation": false,
+        "is_higher_risk_alternative": true,
+        "requires_explicit_confirmation": true,
+        "warning_level": "strong"
+      }
+    },
+    "Growth": {
+      "none": {
+        "preference": "none",
+        "label": "None (0% crypto)",
+        "maximum_exposure": 0.0,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "none"
+      },
+      "limited": {
+        "preference": "limited",
+        "label": "Limited",
+        "maximum_exposure": 0.15,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "none"
+      },
+      "higher": {
+        "preference": "higher",
+        "label": "Higher",
+        "maximum_exposure": 0.25,
+        "is_main_recommendation": true,
+        "is_higher_risk_alternative": false,
+        "requires_explicit_confirmation": false,
+        "warning_level": "standard"
+      }
+    }
+  },
+  "crypto_warning": "Higher cryptocurrency exposure can involve exceptional volatility and deep historical drawdowns. This educational allocation is not personal financial advice.",
+  "maximum_fund_weight": 0.5,
+  "short_horizon_key": "short",
+  "long_horizon_key": "long",
+  "low_loss_key": "low",
+  "high_loss_key": "high"
+}
